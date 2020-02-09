@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import "search_login_reg.css";
+
+/* 中段内容总大小 */
+.main{
+	position: relative;
+	width: auto;
+	height: 4978px;
+	background-color: whitesmoke;
+}
+
+/*左边轮播图加新闻总大小*/
+.article{
+	width: 832px;
+	height: 4978px;
+	float: left;
+}
+
+/* 轮播图大小样式 */
+.slidebox{
+	position: relative;
+	width: 832px;
+	height: 446px;
+	bottom: 25px;
+	border-radius:5px;
+	overflow: hidden;
+}
+
+/* 轮播图指示圆点位置 */
+.slidebox .hd{
+	z-index: 100;
+	position: absolute;
+	padding-left: 20px;
+	right: 10px;
+	bottom: 10px;
+}
+
+/* 指示圆点样式 */
+.hd>ul li{
+	width: 10px;
+	height: 10px;
+	background-color: lightsteelblue;
+	border-radius: 50px;
+	margin-right: 10px;
+	float: left;
+	cursor: pointer;
+}
+
+/* 当前图片圆点高亮 */
+.slidebox .hd ul li.on{
+	color: #ffffff;
+	background-color: yellowgreen;
+}
+
+.bd{
+	position: absolute;
+	left: 73px;
+}
+
+/* 轮播图片大小 */
+.lunbo>img{
+	width: 832px;
+	height: 453px;
+	border-radius:5px;
+}
+
+/* 轮播图介绍总边框 */
+.slide_shade{
+	position: absolute;
+	width: 792px;
+	height: 223px;
+	bottom: 0;
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	overflow: hidden;
+	background-color: rgba(0,0,0,.06);
+}
+
+/* 轮播图文字介绍 -- 上方大字 */
+.font_tp{
+	position: absolute;
+	width: auto;
+	height: 31px;
+	margin: 80px 0 24px 0;
+	padding: 0 16px;
+	bottom: 70px;
+}
+
+/* 轮播图文字介绍 -- 下方小字 */
+.font_sm{
+	position: absolute;
+	width: 80%;
+	margin-left: 16px;
+	overflow: hidden;
+	height: 24px;
+	font-size: 16px;
+	line-height: 24px;
+	bottom: 40px;
+	font-weight: 300;
+}
