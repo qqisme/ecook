@@ -8,15 +8,13 @@
   <artifactId>ecook-manage</artifactId>
   <packaging>war</packaging>
   <dependencies>
-
-	<dependency>
-		<groupId>com.ec</groupId>
-		<artifactId>ecook-common</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</dependency>
-	</dependencies>
-
-	<build>
+  	<dependency>
+  		<groupId>com.ec</groupId>
+  		<artifactId>ecook-common</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  <build>
 		<plugins>
 			<!--跳过测试类打包 -->
 			<plugin>
