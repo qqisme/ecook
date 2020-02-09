@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName("ebook_top")
+@TableName("ecook_top")
 public class EbookTop extends EbookPojo implements Serializable{
 	private static final long serialVersionUID = 6088989235809503728L;
 

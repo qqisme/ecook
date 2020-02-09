@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+/*页面大小*/
+body{
+	width: 1349px;
+	height: 5568px;
+	margin:auto;
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
+/* 包装顶部所有标签的 div */
+#header{
+	min-width: 1200px;
+	height: 140px;
+	margin-top:25px;
+	position: relative;
+	width: 100%;
+}
+
+/* 左上角logo超链接,连接主页 */
+#a1{
+	position: relative;
+	text-decoration: none;
+	bottom:10px;
+	margin-left: 78px;
+}
+
+#a1>ul{
+	display: inline-block;
+	right: 40px;
+}
+
+#a1>ul>li{
+	margin-bottom: 5px;
+}
+
+/* 超链接默认和已点击的状态 黑字 */
+a:link,a:visited{
+	color: black;
+}
+
+/* logo 图片样式 */
+.ecookImg{
+	position: relative;
+	width: 52px;
+	height:52px;
+	top: 3px;
+}
+
+/*-- 顶部中段菜单搜索栏 --*/
+
+/* 整个搜索框 div 长宽样式 */
+.ecook_search{
+	width: 482px;
+	height: 40px;
+	margin-left: 470px;
+	margin-top: 15px;
+	padding-left: 10px;
+	line-height: 40px;
+	border-radius: 8px;
+}
+
+/* 下拉选框 */
+.search_type{
+	position: relative;
+	height: 40px;
+	text-align: center;
+	color: dimgray;
+	background-color: whitesmoke;
+	border: none;
+	padding-left: 2px;
+	font-size: 14px;
+	bottom:80px;
+}
+
+/* 搜索输入框 */
+.search_input{
+	width: 307px;
+	height: 40px;
+	border: none;
+	padding-left: 15px;
+	background-color: whitesmoke;
+	position: relative;
+	bottom: 80px;
+	right: 5px;
+}
+
+/* 确认搜索超链接 */
+.ecook_search .search_btn {
+	position: relative;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	background-color: #FFC000;
+	border-radius: 0 4px 4px 0;
+	float: right;
+	text-align: center;
+	border: none;
+	text-decoration: none;
+	bottom: 79px;
+	right: 7px;
+}
+
+/* 登录与注册 */
+.user_nav_submenu{
+	position: relative;
+	width: 149px;
+	height: 80px;
+	float: right;
+	bottom:110px;
+	margin-right: 80px;
+}
+
+.user_nav_submenu a{
+	text-decoration: none;
+	font-size: 14px;
+	padding-right: 8px;
+	border-right: 1px solid #333333;
+}
+/* 下载APP 字体颜色*/
+#down_load{
+	color: #FFC000;
+}
+
+/* 分类表 */
+#head_ul{
+	position: relative;
+	width: 1200px;
+	height: 60px;
+	bottom: 70px;
+	font-size: 15px;
+	margin-left: 75px;
+	margin-top: 10px;
+	background-color: #FFC000;
+}
+
+.s1{
+	color: white;
+}
+
+
+.clfy{
+	position: relative;
+	float: left;/* 将所有li向左浮动 */
+	color: #fff;
+	top: 20px;
+	margin-left: 32px;
+	list-style-type: none;  /*清除无序列表的标记点*/
+	margin-right: 100px;
+}
+
+.clfy a{
+	text-decoration:none;
+}
+
+.dip{
+	width: auto;
+	height: 39px;
+}
+
+.clfy:hover{
+	color: #000;
+}
+
+/* 悬停时出现选项 */
+.dip:hover #caipu_ul{
+	display: block;
+}
+
+.s1:hover{
+	color: #000;
+}
+
+#caipu_ul{
+	position: absolute;
+	display: none;
+	width: 90px;
+	height: auto;
+	z-index: 99;
+	margin-top: 20px;
+	text-align: center;
+	background-color: whitesmoke;
+	right: -14px;
+}
+
+#a2{
+	position: relative;
+	top: 10px;
+}
+
+#caipu_li{
+	margin-bottom: 50px;
+	list-style-type: none;
+}
+
+#shicai_li{
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+#caipu_ul a{
+	text-decoration: none;
+}
+
+
