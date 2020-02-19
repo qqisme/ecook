@@ -13,3 +13,9 @@
 /ecook-manage/.settings
 /.settings
 /*.project
+/ecook-common/*.classpath
+/ecook-common/*.factorypath
+/ecook-common/target
+/ecook-common/.settings
+/ecook-manage/bin
+/ecook-common/bin
