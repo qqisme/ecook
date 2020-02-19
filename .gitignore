@@ -6,3 +6,10 @@
 *.project
 *.class
 *.log
+/ecook-manage/*.classpath
+/ecook-manage/*.factorypath
+/ecook-manage/*.project
+/ecook-manage/target
+/ecook-manage/.settings
+/.settings
+/*.project
