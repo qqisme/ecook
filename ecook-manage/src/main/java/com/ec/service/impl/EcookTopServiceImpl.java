@@ -11,19 +11,19 @@ import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.ec.mapper.EbookTopMapper;
-import com.ec.pojo.EbookTop;
-import com.ec.service.EbookTopService;
+import com.ec.mapper.EcookTopMapper;
+import com.ec.pojo.EcookTop;
+import com.ec.service.EcookTopService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Service
-public class EbookTopServiceImpl implements EbookTopService {
+public class EcookTopServiceImpl implements EcookTopService {
 
 	@Autowired
-	private EbookTopMapper etm;
+	private EcookTopMapper etm;
 
 	@Override
 	public String saveTop() {
@@ -38,7 +38,7 @@ public class EbookTopServiceImpl implements EbookTopService {
 		int index = 0;
 		String url;
 		Document doc;
-		EbookTop entity = new EbookTop();
+		EcookTop entity = new EcookTop();
 		long start = System.currentTimeMillis();
 		for (int i = 1; i < 53; i++) {
 			try {
@@ -113,18 +113,18 @@ public class EbookTopServiceImpl implements EbookTopService {
 	}
 
 	@Override
-	public PageInfo<EbookTop> getPageInfo(Integer pageNum) {
+	public PageInfo<EcookTop> getPageInfo(Integer pageNum) {
 		pageNum = (pageNum == null || pageNum < 1) ? 1 : pageNum;
 
-		QueryWrapper<EbookTop> qw = new QueryWrapper<EbookTop>();
+		QueryWrapper<EcookTop> qw = new QueryWrapper<EcookTop>();
 		
 		qw.orderByDesc("updated_time");
 		
 		PageHelper.startPage(pageNum, 20);
 
-		List<EbookTop> list = etm.selectList(qw);
+		List<EcookTop> list = etm.selectList(qw);
 		
-		return new PageInfo<EbookTop>(list);
+		return new PageInfo<EcookTop>(list);
 	}
 
 }

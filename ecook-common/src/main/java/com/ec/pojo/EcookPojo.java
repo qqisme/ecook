@@ -22,7 +22,7 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @AllArgsConstructor
 @Accessors(chain = true)
-public class EbookPojo implements Serializable{
+public class EcookPojo implements Serializable{
 	private static final long serialVersionUID = -5404574450533361735L;
 
 	@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")

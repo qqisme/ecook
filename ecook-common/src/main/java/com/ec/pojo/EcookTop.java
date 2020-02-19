@@ -20,7 +20,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @TableName("ecook_top")
-public class EbookTop extends EbookPojo implements Serializable{
+public class EcookTop extends EcookPojo implements Serializable{
 	private static final long serialVersionUID = 6088989235809503728L;
 
 	@TableId(type = IdType.AUTO)	//设置主键,自增

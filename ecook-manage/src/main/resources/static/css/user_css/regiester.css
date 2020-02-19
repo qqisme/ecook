@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+/*背景图片*/
+.dt_pic{
+	position: relative;
+	height: 841px;
+	width: 1349px;
+	background-image: url(/images/user/bj_02.jpg);
+	background-size: cover;
+	margin: auto;
+	overflow: hidden;
+}
+/*白底*/
+.register{
+	position: absolute;
+	width: 940px;
+	background:#fff;
+	top: 40px;
+	height: 680px;
+	left: 205px;
+}
+.register-top{
+	border-bottom: 1px solid #f7f7f7;
+	padding: 25px 0 25px 0;
+	margin: 0 40px 0 40px;
+	border-width: 1px;
+}
+.register-top span{
+	font-size: 18px;
+	color: black;
+}
+.register-top a{
+	font-size: 17px;
+	color: orange;
+	float: right;
+	
+}
+
+
+.register-center{
+	width: 940px;
+	height: 462px;
+	margin: 0 auto;
+}
+
+
+
+#fo{
+	height: 462px;
+	width: 940px;
+	margin-left: 40px;
+}
+
+#t1{
+	position: relative;
+	margin: 0 auto;
+	border-collapse:separate;
+	border-spacing:0px 25px;"
+}
+
+
+.center_td{
+	height: 54px;
+}
+
+.first_td{
+	margin-top: 20px;
+}
+
+input{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 13px;
+	text-indent: 15px;
+	color: #ddd;
+}
+
+p{
+	position: relative;
+	text-indent: 15px;
+	font-size: 12px;
+	color: #ccc;
+	top: 15px;
+}
+
+#codebdn{
+	width: 140px;
+	height: 40px;
+	background-color: #ddd;
+	border: none;
+	cursor: pointer;
+}
+
+.agree{
+	position: relative;
+	width: 940px;
+	height: 37px;
+}	
+	
+.yzheng{
+	width: 159px;
+	height:40px;
+}	
+	
+#qr{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 38%;
+	bottom: 65px;
+}	
+	
+.agr_a{
+	color:orange;
+	position: absolute;
+	left: 53%;
+	bottom: 65px;
+}
+
+.agr_span{
+	position: absolute;
+	left: 39%;
+	bottom: 65px;
+}
+
+.zhuce{
+	position: absolute;
+	width: 305px;
+	height:44px;
+	color: white;
+	background-color: orange;
+	font-size: 18px;
+	border:none;
+	left: 38%;
+	bottom: 90px;
+}

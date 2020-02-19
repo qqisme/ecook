@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册界面</title>
+		<link rel="stylesheet" href="/css/user_css/regiester.css">
+	</head>
+	<body>
+		<div class="dt_pic">
+			<div class="register">
+				<div class="register-top">
+					<span>新用户注册</span>
+					<a href="login.html">已有账号 , 直接登录></a>
+				</div>
+				
+				<!-- 中间表单部分-->
+				<div class="register_center">
+					<form action="" id = "fo">
+						<table id = "t1">
+							<tr class="center_tr first_td">
+								<td class="center_td">
+									<input type="text" name="tel" placeholder="请输入手机号码">
+									<p>输入常用的手机号，便于登录和找回密码</p>
+								</td>
+								
+							</tr>
+							<tr class="center_tr">
+								<td class="center_td after_td">
+									<input type="text" name = "username" placeholder="请输入昵称">
+								</td>
+							</tr>
+							<tr class="center_tr">
+								<td class="center_td after_td">
+									<input type="password" name="pwd" placeholder="请输入密码">
+								</td>
+							</tr>
+							<tr class="center_tr">
+								<td class="center_td after_td">
+									<input type="password" name="repwd" placeholder="请再次输入密码">
+								</td>
+							</tr>
+							<tr class="center_tr">
+								<td class="center_td">
+									<input type="text" name="num" class = "yzheng" placeholder="请输入验证码">
+									<button type="button" id = "codebdn">获取验证码</button>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div class="agree">
+					<input type="checkbox" name="queren" id="qr" value="ok" /><span class = "agr_span">&nbsp;&nbsp;我已阅读且同意</span><a href="" class = "agr_a">网上厨房用户协议</a>
+				</div>
+				
+				<button type="button" class = "zhuce">注册</button>
+				
+			</div>
+		</div>
+	</body>
+</html>
